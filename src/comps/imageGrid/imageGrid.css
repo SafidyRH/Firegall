@@ -1,0 +1,22 @@
+.img-grid{
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.img-wrap{
+    overflow: hidden;
+    height: 0;
+    padding: 30% 0;
+    position: relative;
+    opacity: 0.8;
+}
+
+.img-wrap img{
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
